@@ -1,0 +1,12 @@
+.side_Menu {
+    -fx-background-color: #191f31;
+}
+
+.menu-bar-items {
+    -fx-font-family: 'Arial Rounded MT Bold';
+    -fx-font-size: 13px;
+}
+.weather_bg{
+    -fx-background-color: #c2cef3;
+
+}

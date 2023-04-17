@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" stylesheets="@CSS.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.admindashboard.HelloController">
+   <children>
+      <AnchorPane prefHeight="750.0" prefWidth="180.0" styleClass="side_Menu">
+         <children>
+            <Circle fill="DODGERBLUE" layoutX="40.0" layoutY="40.0" radius="26.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="66.0" layoutY="26.0" text="Klimon3" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+
+            </Label>
+            <Label layoutX="66.0" layoutY="171.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Home" textFill="#fafafa" />
+            <Label layoutX="60.0" layoutY="211.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Ban User" textFill="#fafafa" />
+            <Label layoutX="66.0" layoutY="252.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Users" textFill="#fafafa" />
+            <Label layoutX="69.0" layoutY="288.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Earn" textFill="#fafafa" />
+
+<!--            <Label fx:id="Home" layoutX="30" layoutY="150" style="-fx-text-fill: white; -fx-font-family: 'Arial Rounded MT Bold'; -fx-font-size: 13px;" text=" Home">-->
+<!--            </Label>-->
+
+<!--            <Label fx:id="Ban a User" layoutX="30" layoutY="150" style="-fx-text-fill: white; -fx-font-family: 'Arial Rounded MT Bold'; -fx-font-size: 13px;" text=" Home">-->
+<!--            </Label>-->
+
+<!--            <Label fx:id="Trips" layoutX="30" layoutY="150" style="-fx-text-fill: white; -fx-font-family: 'Arial Rounded MT Bold'; -fx-font-size: 13px;" text=" Home">-->
+<!--            </Label>-->
+
+            
+
+
+
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="180.0" prefHeight="750.0" prefWidth="1020.0">
+         <children>
+            <AnchorPane prefHeight="122.0" prefWidth="1020.0" styleClass="weather_bg" stylesheets="@CSS.css" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
