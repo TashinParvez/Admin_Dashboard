@@ -6,7 +6,11 @@
     -fx-font-family: 'Arial Rounded MT Bold';
     -fx-font-size: 13px;
 }
-.weather_bg{
+.weather_bg {
     -fx-background-color: #c2cef3;
-
+    -fx-background-radius: 10;
+}
+.app_users_data_field{
+    -fx-background-color: #4e4364;
+    -fx-background-radius: 10;
 }
