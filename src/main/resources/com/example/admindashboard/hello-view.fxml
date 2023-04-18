@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -111,6 +115,37 @@
                         <Font name="Bodoni MT Bold" size="28.0" />
                      </font>
                   </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="5.0" layoutY="319.0" prefHeight="426.0" prefWidth="1008.0" styleClass="weather_bg" stylesheets="@CSS.css">
+               <children>
+                  <AnchorPane layoutX="6.0" layoutY="6.0" prefHeight="418.0" prefWidth="488.0" styleClass="graphs_data_field">
+                     <children>
+                        <LineChart fx:id="linearChart" layoutX="-6.0" layoutY="60.0" prefHeight="344.0" prefWidth="472.0">
+                          <xAxis>
+                            <CategoryAxis side="BOTTOM" />
+                          </xAxis>
+                          <yAxis>
+                            <NumberAxis side="LEFT" />
+                          </yAxis>
+                        </LineChart>
+                        <Label layoutX="28.0" layoutY="25.0" text="Users Activity" textFill="#d4d2d2">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="505.0" layoutY="5.0" prefHeight="418.0" prefWidth="498.0" styleClass="graphs_data_field">
+                     <children>
+                        <Label layoutX="28.0" layoutY="25.0" text="Users Activity" textFill="#d4d2d2">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <PieChart layoutX="35.0" layoutY="60.0" prefHeight="344.0" prefWidth="427.0" />
+                     </children>
+                  </AnchorPane>
                </children>
             </AnchorPane>
          </children>
