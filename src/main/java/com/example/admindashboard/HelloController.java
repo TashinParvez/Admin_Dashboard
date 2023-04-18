@@ -1,9 +1,12 @@
 package com.example.admindashboard;
 
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.LineChart;
+import javafx.scene.chart.PieChart;
 import javafx.scene.chart.XYChart;
 
 import java.net.URL;
@@ -15,10 +18,7 @@ public class HelloController implements Initializable {
     @FXML
     private LineChart<?, ?> linearChart;
 
-    // problem chart
-//    @FXML
-//    private PieChart PieChart;
-
+    //  problem chart
     private void setLinearChart() {
         XYChart.Series series = new XYChart.Series();
         series.getData().add(new XYChart.Data("January", 10));
@@ -36,8 +36,25 @@ public class HelloController implements Initializable {
         linearChart.getData().addAll(series);
     }
 
+//    @FXML
+//    private PieChart pieChart;
+//
+//    private void inPieChart() {
+//        ObservableList<PieChart.Data> pieChartData = FXCollections.observableArrayList(
+//                new PieChart.Data("Dhaka", 10),
+//                new PieChart.Data("Chattogram", 10),
+//                new PieChart.Data("Shylet", 10),
+//                new PieChart.Data("Khulna", 10),
+//                new PieChart.Data("Rajshahi", 10),
+//                new PieChart.Data("Cox's Bazar", 10),
+//                new PieChart.Data("Bogura", 10)
+//        );
+//        pieChart.setData(pieChartData);
+//    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         setLinearChart();
+//        inPieChart();
     }
 }

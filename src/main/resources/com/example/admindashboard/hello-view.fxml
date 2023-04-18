@@ -25,10 +25,9 @@
             </Label>
             <Label layoutX="66.0" layoutY="171.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Home" textFill="#fafafa" />
             <Label layoutX="60.0" layoutY="211.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Ban User" textFill="#fafafa" />
-            <Label layoutX="66.0" layoutY="252.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Users" textFill="#fafafa" />
-            <Label layoutX="69.0" layoutY="288.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Earn" textFill="#fafafa" />
-            <Label layoutX="69.0" layoutY="321.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Inbox" textFill="#fafafa" />
-            <Label layoutX="66.0" layoutY="353.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Events" textFill="#fafafa" />
+            <Label layoutX="69.0" layoutY="251.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Earn" textFill="#fafafa" />
+            <Label layoutX="69.0" layoutY="284.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Inbox" textFill="#fafafa" />
+            <Label layoutX="44.0" layoutY="316.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="Add Package" textFill="#fafafa" />
             <Label layoutX="66.0" layoutY="693.0" styleClass="menu-bar-items" stylesheets="@CSS.css" text="LogOut" textFill="#fafafa" />
 
 <!--            <Label fx:id="Home" layoutX="30" layoutY="150" style="-fx-text-fill: white; -fx-font-family: 'Arial Rounded MT Bold'; -fx-font-size: 13px;" text=" Home">-->
@@ -138,7 +137,7 @@
                   </AnchorPane>
                   <AnchorPane layoutX="505.0" layoutY="5.0" prefHeight="418.0" prefWidth="498.0" styleClass="graphs_data_field">
                      <children>
-                        <Label layoutX="28.0" layoutY="25.0" text="Users Activity" textFill="#d4d2d2">
+                        <Label layoutX="28.0" layoutY="25.0" prefHeight="26.0" prefWidth="160.0" text="Trips In Cities" textFill="#d4d2d2">
                            <font>
                               <Font name="Arial Rounded MT Bold" size="21.0" />
                            </font>
